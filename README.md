@@ -13,17 +13,6 @@ Através de um sistema de busca com raio geoespacial o aplicativo permite que or
 
 A aplicação é construída sobre uma arquitetura cliente-servidor, separando front-end e back-end.
 
-```
-+--------------------------+        +------------------------+        +-------------------------+
-|                          |        |                        |        |                         |
-|   Frontend (Expo App)    |  <---> |   Backend (FastAPI)    |  <---> |   Banco de Dados        |
-|  (React Native / Paper)  |        |      (Python)          |        | (PostgreSQL + PostGIS)  |
-|                          |        |                        |        |                         |
-+--------------------------+        +------------------------+        +-------------------------+
-       (Cliente)                       (Servidor / API)                   (Armazenamento)
-```
-
----
 
 ## 3. Backend (API)
 
